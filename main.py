@@ -27,7 +27,14 @@ def baddiecated():
 
 
 def daddycated():
-    print('Who is your daddy?')
+    daddy = False
+    user_input = ""
+    while True:
+        if user_input.lower() == "daddy":
+            return daddy == True
+            break
+        else:
+            print("I'm just a file for you, daddy!")
 
 def main():
     print("Are you baddie or are you daddy?")
