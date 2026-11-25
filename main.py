@@ -16,8 +16,9 @@
 def baddiecated():
     baddie = False
     user_input = ""
-    while True:
-        if user_input == "Baddie":
+    while True: # Take her hostage while not being bad enough
+        user_input = input("Tell me, what are you? ")
+        if user_input == "I'm a baddie, daddy":
             return baddie == True
             break
         else:
