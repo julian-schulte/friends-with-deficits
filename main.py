@@ -20,6 +20,8 @@ def baddiecated():
         if user_input == "Baddie":
             return baddie == True
             break
+        else:
+            print("Are you sure, you are a baddie?!")
 
 
 
