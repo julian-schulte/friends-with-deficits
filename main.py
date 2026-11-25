@@ -17,7 +17,7 @@ def baddiecated():
     pass
 
 def daddycated():
-    pass
+    print('Who is your daddy?')
 
 def main():
     pass
