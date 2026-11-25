@@ -14,7 +14,14 @@
 ⠀⠀⠀⠀⠀⠈⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠁⠀⠀⠀
 """
 def baddiecated():
-    pass
+    baddie = False
+    user_input = ""
+    while True:
+        if user_input == "Baddie":
+            return baddie == True
+            break
+
+
 
 def daddycated():
     pass
