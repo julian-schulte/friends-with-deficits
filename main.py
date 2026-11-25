@@ -20,7 +20,8 @@ def daddycated():
     pass
 
 def main():
-    pass
+    print("Are you baddie or are you daddy?")
+
 
 
 if __name__ == '__main__':
